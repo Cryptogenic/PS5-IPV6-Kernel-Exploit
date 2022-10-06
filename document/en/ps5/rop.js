@@ -1,6 +1,6 @@
 class rop {
 
-    constructor(stack_size = 0x40000, reserved_stack = 0x10000) {
+    constructor(stack_size = 0x80000, reserved_stack = 0x10000) {
         this.stack_size = stack_size;
         this.reserved_stack = reserved_stack;
         this.stack_dwords = stack_size / 0x4;
